@@ -11,155 +11,129 @@
 </head>
 
 <body>
-  <div class="container">
+  <section class="container">
     <div class="status-bar">
       <img class="battery-icon" src="images/battery-icon.svg" alt="battery icon">
       <img class="wifi" src="images/wifi.svg" alt="wifi icon">
       <h1>8:30 AM</h1>
     </div>
-  </div>
+  </section>
 
   <section>
-    <div class="search-box-background">
+    <section class="search-box-background">
       <img class="back-icon" src="images/back-icon.svg" alt="back button">
       <img class="three-dots" src="images/three-dots.svg" alt="three dots">
       <img class="swap-location" src="images/swap-location.svg" alt="swap icon">
-    </div>
-    <div class="starting-location">
-      Washington/State St.
+    </section>
+    <section class="starting-location">
+      <input class="location-entry" type="text" name="start location" value="Washington & State">
       <img class="voice-icon1" src="images/voice-searchh.svg" alt="voice search">
-    </div>
-    <div class="destination-location">
-      Thinkful Headquarters
+    </section>
+    <section class="destination-location">
+      <input class="location-entry" type="text" name="destination location" value="Thinkful Headquarters">
       <img class="voice-icon2" src="images/voice-searchh.svg" alt="voice search">
-    </div>
-    <div class="saved-recent">
-      Saved | Recent
-    </div>
+    </section>
+    <h2 class="saved-recent"> Saved | Recent </h2>
   </section>
 
-  <div class="eastbound-container">
-    <div class="eastbound-title">
-      <h1> Eastbound </h1>
-    </div>
-    <div class="eastbound-firstline">
-      <div class="grid-container">
-        <div class="grid-item">Line</div>
-        <div class="grid-item">Destination</div>
-        <div class="grid-item">Frequency</div>
-        <div class="grid-item-1">60</div>
-        <div class="grid-item-1">Randolph/Harbor Dr</div>
-        <div class="grid-item-1">Every 20 minutes</div>
-      </div>
-    </div>
-    <div class="eastbound-secondline">
-      <div class="grid-container">
-        <div class="grid-item">Line</div>
-        <div class="grid-item">Destination</div>
-        <div class="grid-item">Frequency</div>
-        <div class="grid-item-1">124</div>
-        <div class="grid-item-1">Navy Pier</div>
-        <div class="grid-item-1">Every 10 minutes</div>
-      </div>
+  <main>
+    <section>
+      <h1 class="eastbound-title"> Eastbound </h1>
+      <section class="item-body-1">
+        <h2 class="circle"> 60 </h2>
+        <div class="item-container">
+          <h2 class="item-destination">Randolph/Harbor Dr</h2>
+          <h2 class="item-arrival">Arrives in 3 minutes</h2>
+        </div>
+        <h3> Every 20 minutes </h3>
+      </section>
 
-    </div>
-  </div>
+      <section class="item-body-1">
+        <h2 class="circle"> 124 </h2>
+        <div class="item-container">
+          <h2 class="item-destination">Navy Pier</h2>
+          <h2 class="item-arrival">Arrives in 10 minutes</h2>
+        </div>
+        <h3> Every 10 minutes </h3>
+      </section>
+    </section>
 
+    <section>
+      <h1 class="northbound-title"> Northbound </h1>
+      <section class="item-body-1">
+        <h2 class="circle"> 151 </h2>
+        <div class="item-container">
+          <h2 class="item-destination">Devon/Clark</h2>
+          <h2 class="item-arrival">Arrives in 6 minutes</h2>
+        </div>
+        <h3> Every 16 minutes </h3>
+      </section>
+    </section>
 
-  <div class="northbound-container">
-    <div class="northbound-title">
-      <h1> Northbound </h1>
-    </div>
-    <div class="northbound-firstline">
-      <div class="grid-container">
-        <div class="grid-item">Line</div>
-        <div class="grid-item">Destination</div>
-        <div class="grid-item">Frequency</div>
-        <div class="grid-item-1">151</div>
-        <div class="grid-item-1">Devon/Clark</div>
-        <div class="grid-item-1">Every 16 minutes</div>
-      </div>
-    </div>
-  </div>
+    <section>
+      <h1 class="southbound-title"> Southbound </h1>
+      <section class="item-body-1">
+        <h2 class="circle"> J14 </h2>
+        <div class="item-container">
+          <h2 class="item-destination">103rd/Stony Island</h2>
+          <h2 class="item-arrival">Arrives in 7 minutes</h2>
+        </div>
+        <h3> Every 15 minutes </h3>
+      </section>
 
-  <div class="southbound-container">
-    <div class="southbound-title">
-      <h1> Southbound </h1>
-    </div>
-    <div class="southbound-firstline">
-      <div class="grid-container">
-        <div class="grid-item">Line</div>
-        <div class="grid-item">Destination</div>
-        <div class="grid-item">Frequency</div>
-        <div class="grid-item-1">J14</div>
-        <div class="grid-item-1">103rd/Stony Island</div>
-        <div class="grid-item-1">Every 15 minutes</div>
-      </div>
-    </div>
-    <div class="southbound-secondline">
-      <div class="grid-container">
-        <div class="grid-item">Line</div>
-        <div class="grid-item">Destination</div>
-        <div class="grid-item">Frequency</div>
-        <div class="grid-item-1">124</div>
-        <div class="grid-item-1">Navy Pier</div>
-        <div class="grid-item-1">Every 10 minutes</div>
-      </div>
-    </div>
-  </div>
+      <section class="item-body-1">
+        <h2 class="circle"> 124 </h2>
+        <div class="item-container">
+          <h2 class="item-destination">Navy Pier</h2>
+          <h2 class="item-arrival">Arrives in 4 minutes</h2>
+        </div>
+        <h3> Every 10 minutes </h3>
+      </section>
+    </section>
 
-  <div class="reroute-container">
-    <div class="reroute-title">
-      <h1> Reroute </h1>
-    </div>
-    <div class="reroute-firstline">
-      <div class="grid-container">
-        <div class="grid-item">Line</div>
-        <div class="grid-item">Destination</div>
-        <div class="grid-item">Frequency</div>
-        <div class="grid-item-1">6x</div>
-        <div class="grid-item-1">Jackson Park Express</div>
-        <div class="grid-item-1">N/A</div>
-      </div>
-    </div>
-  </div>
+    <section>
+      <h1 class="reroute-title"> Reroute </h1>
+      <section class="item-body-1">
+        <h2 class="circle-1"> 6x </h2>
+        <div class="item-container-1">
+          <h2 class="item-destination">Jackson Park Express</h2>
+          <h2 class="item-arrival-1">N/A</h2>
+        </div>
+        <h3> N/A </h3>
+      </section>
+    </section>
 
+    <section>
+      <h1 class="outofservice-title"> Out of service </h1>
+      <section class="item-body-1">
+        <h2 class="circle-2"> 4 </h2>
+        <div class="item-container-2">
+          <h2 class="item-destination">Cottage Grove</h2>
+          <h2 class="item-arrival-1">N/A</h2>
+        </div>
+        <h3> Resumes 12:10am </h3>
+      </section>
 
-  <div class="outofservice-container">
-    <div class="outofservice-title">
-      <h1> Out of service </h1>
-    </div>
-    <div class="outofservice-firstline">
-      <div class="grid-container">
-        <div class="grid-item">Line</div>
-        <div class="grid-item">Destination</div>
-        <div class="grid-item">Frequency</div>
-        <div class="grid-item-1">4</div>
-        <div class="grid-item-1">Cottage Grove</div>
-        <div class="grid-item-1">Resumes 12:10am</div>
-      </div>
-    </div>
-    <div class="outofservice-secondline">
-      <div class="grid-container">
-        <div class="grid-item">Line</div>
-        <div class="grid-item">Destination</div>
-        <div class="grid-item">Frequency</div>
-        <div class="grid-item-1">20</div>
-        <div class="grid-item-1">Madison</div>
-        <div class="grid-item-1">Resumes 12:10am</div>
-      </div>
-    </div>
-    <div class="outofservice-thirdline">
-      <div class="grid-container">
-        <div class="grid-item">Line</div>
-        <div class="grid-item">Destination</div>
-        <div class="grid-item">Frequency</div>
-        <div class="grid-item-1">157</div>
-        <div class="grid-item-1">Streeterville/Taylor</div>
-        <div class="grid-item-1">Resumes 6:00am</div>
-      </div>
-    </div>
-  </div>
+      <section class="item-body-1">
+        <h2 class="circle-2"> 20 </h2>
+        <div class="item-container-2">
+          <h2 class="item-destination">Madison</h2>
+          <h2 class="item-arrival-1">N/A</h2>
+        </div>
+        <h3> Resumes 12:10am </h3>
+      </section>
+
+      <section class="item-body-1">
+        <h2 class="circle-2"> 157 </h2>
+        <div class="item-container-2">
+          <h2 class="item-destination">Streeterville/Taylor</h2>
+          <h2 class="item-arrival-1">N/A</h2>
+        </div>
+        <h3> Resumes 6:00am </h3>
+      </section>
+    </section>
+
+  </main>
 
 </body>
 
