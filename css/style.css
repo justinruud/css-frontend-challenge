@@ -4,6 +4,7 @@
 
 section {
   background-color: white;
+  background-color: #F8F8F8;
 }
 
 body {
@@ -12,6 +13,7 @@ body {
   font-family: "Roboto", "Arial", "San-serif";
   max-width: 375px;
   min-width: 360px;
+  background-color: #F8F8F8;
 }
 
 .location-entry {
@@ -45,7 +47,6 @@ body {
 }
 
 .search-box-background {
-  background-color: white;
   margin: 0 auto;
 }
 
@@ -63,6 +64,7 @@ body {
   width: 70%;
   font-size: 1.4em;
   color: #585858;
+  background-color: white;
 }
 
 .destination-location {
@@ -73,6 +75,7 @@ body {
   width: 70%;
   font-size: 1.4em;
   color: #585858;
+  background-color: white;
 }
 
 
