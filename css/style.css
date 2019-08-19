@@ -76,6 +76,8 @@ body {
   font-size: 1.4em;
   color: #585858;
   background-color: white;
+  margin-bottom: 5%;
+
 }
 
 
@@ -115,6 +117,17 @@ body {
   margin-top: 19%;
   margin-right: -6%;
   float: right;
+}
+
+.map {
+  width: 375px;
+  height: 260px;
+  border-radius: 3px;
+  box-shadow: .5px .5px 4px #8888;
+  border-top: 1px solid #8888;
+  border-bottom: 1px solid #8888;
+  margin-bottom: 2%;
+
 }
 
 
